@@ -17,7 +17,7 @@ HEADER = {
 ##print(response.text)         # Чтобы увидеть текст ответа
 
 # ID покемона, имя которого нужно изменить
-pokemon_id = "175011"  # Изменилось на строку
+pokemon_id = "175020"  # Изменилось на строку
 
 # Новые данные покемона
 new_name_body = {
@@ -37,7 +37,7 @@ else:
     print("Ошибка при изменении имени покемона:", response_update.status_code, response_update.text)
 
 # Код для поймать покемона в покебол
-pokemon_to_catch_id = "175011"  # ID покемона, которого нужно поймать в покебол
+pokemon_to_catch_id = "175020"  # ID покемона, которого нужно поймать в покебол
 
 catch_pokeball_body = {
     "pokemon_id": pokemon_to_catch_id  # Здесь указываем ID покемона
